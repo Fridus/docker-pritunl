@@ -25,11 +25,13 @@ docker run -d -it \
 ```
 docker run -d -it \
   --privileged \
-  --link mongodb \
+  --link mongodb:mongo \
   -p 1194:1194/udp -p 1195:1195/udp -p 9700:9700/tcp \
   --name="pritunl" \
   fridus/pritunl
 ```
+
+`/!\` The alias of the mongodb container must be `mongo`
 
 #### Set `Mongo URI`
 
