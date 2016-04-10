@@ -1,5 +1,5 @@
 # pritunl
-https://pritunl.com/
+https://pritunl.com/ (v1.21.941.39)
 
 ## 1. Get image
 
@@ -13,7 +13,7 @@ docker pull fridus/pritunl
 ```
 docker run -d -it \
   --privileged \
-  -p 1194:1194/udp -p 1195:1195/udp -p 9700:9700/tcp \
+  -p 1194:1194/udp -p 1195:1195/udp -p 9700:443/tcp -p 443:443/tcp \
   --name="pritunl" \
   fridus/pritunl
 ```
@@ -26,7 +26,7 @@ docker run -d -it \
 docker run -d -it \
   --privileged \
   --link mongodb:mongo \
-  -p 1194:1194/udp -p 1195:1195/udp -p 9700:9700/tcp \
+  -p 1194:1194/udp -p 1195:1195/udp -p 9700:443/tcp -p 443:443/tcp \
   --name="pritunl" \
   fridus/pritunl
 ```
@@ -39,12 +39,12 @@ docker run -d -it \
 docker run -d -it \
   --privileged \
   --e MONGO_URI=mongodb://xx.xx.xx.xx:27017/pritunl \
-  -p 1194:1194/udp -p 1195:1195/udp -p 9700:9700/tcp \
+  -p 1194:1194/udp -p 1195:1195/udp -p 9700:443/tcp -p 443:443/tcp \
   --name="pritunl" \
   fridus/pritunl
 ```
 
 
-## 3. Configure and use  
+## 3. Configure and use
 
--> https://xx.xx.xx.xx:9700
+-> https://myvpnserver or https://myvpnserver:9700
