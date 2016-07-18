@@ -1,5 +1,12 @@
 # pritunl
-https://pritunl.com/ (v1.21.941.39)
+https://pritunl.com/
+
+## Supported tags
+
+- `1.25.1039.56`, `latest`
+- `1.21.941.39`
+- `1.16.884.17`
+
 
 ## 1. Get image
 
