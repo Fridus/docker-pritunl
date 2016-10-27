@@ -3,7 +3,8 @@ https://pritunl.com/
 
 ## Supported tags
 
-- `1.25.1054.4`, `latest`
+- `1.25.1134.24`, `latest`
+- `1.25.1054.4`
 - `1.25.1039.56`
 - `1.21.941.39`
 - `1.16.884.17`
@@ -17,14 +18,6 @@ docker pull fridus/pritunl
 
 
 ## 2. Create container
-
-```
-docker run -d -it \
-  --privileged \
-  -p 1194:1194/udp -p 1195:1195/udp -p 9700:443/tcp -p 443:443/tcp \
-  --name="pritunl" \
-  fridus/pritunl
-```
 
 ###  Setup on `run`
 
