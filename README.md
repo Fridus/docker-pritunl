@@ -1,9 +1,10 @@
 # pritunl
-https://pritunl.com/
+https://pritunl.com/ - https://github.com/pritunl/pritunl
 
 ## Supported tags
 
-- `1.25.1134.24`, `latest`
+- `1.28.1379.82`, `latest`
+- `1.25.1134.24`
 - `1.25.1054.4`
 - `1.25.1039.56`
 - `1.21.941.39`
@@ -48,4 +49,5 @@ docker run -d -it \
 
 ## 3. Configure and use
 
--> https://myvpnserver or https://myvpnserver:9700
+- https://myvpnserver or https://myvpnserver:9700
+- Default login and password : `pritunl`
