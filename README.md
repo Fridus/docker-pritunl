@@ -3,7 +3,8 @@ https://pritunl.com/ - https://github.com/pritunl/pritunl
 
 ## Supported tags
 
-- `1.29.1669.3`, `latest`
+- `1.29.1670.66`, `latest`, `latest-debian`, `latest-centos`
+- `1.29.1669.3`
 - `1.28.1379.82`
 - `1.25.1134.24`
 - `1.25.1054.4`
